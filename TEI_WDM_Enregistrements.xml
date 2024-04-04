@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>The teachings of W.D. Muhammad</title>
+                        <author>Wallace Deen Muhammad</author>
+                        <editor>Ilyes Mechentel</editor>
+                  </titleStmt>
+                  <publicationStmt>
+                        <distributor>
+                              WDM Publications (c)
+                        </distributor>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <recordingStmt>
+                              <recording type="audio">
+                                    <respStmt> 
+                                          <resp>Enregistré par</resp>
+                                          <name>Leslie Taha</name>
+                                    </respStmt>
+                                </recording>
+                        </recordingStmt>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+
+                  <particDesc>
+                        <listPerson>
+                              <person xml:id="PM">
+                                    <persName>Prophète Muhammad</persName>
+                              </person>
+                              <person xml:id="MFM">
+                                    <persName>Maître Fard Muhammad</persName>
+                              </person>
+                              <person xml:id="ComCart">
+                                    <persName>Le délégué Cartwright
+                                    </persName>
+                              </person>
+                              <person xml:id="RevRA">
+                                    <persName>Le révérend Ralph Abernathy</persName>
+                              </person>
+                              <person xml:id="BroBB">
+                                    <persName>Le frère Ben Branch</persName>
+                              </person>
+                              <person xml:id="MA">
+                                    <persName>Muhammad Ali</persName>
+                              </person>
+                              <person xml:id="POTUS_C"> 
+                                    <persName>Président Jimmy Carter</persName>
+                             </person>
+                              <person xml:id="SecVance">
+                                    <persName>Secrétaire Cyrus Vance</persName>
+                              </person>
+                              <person xml:id="RabP">
+                                    <persName>Rabbin Mayer Perlmuter</persName>
+                              </person>
+                        </listPerson>
+                  </particDesc>
+
+                  <settingDesc>
+                        <listPlace>
+                              <place xml:id="Arabia">
+                                    <placeName>Arabie</placeName>
+                              </place>
+                              <place xml:id="EU">
+                                    <placeName>Europe</placeName>
+                              </place>
+                              <place xml:id="Chicago">
+                                    <placeName>Chicago</placeName>
+                              </place>
+                              <place xml:id="Det">
+                                    <placeName>Detroit</placeName>
+                              </place>
+                              <place xml:id="NY">
+                                    <placeName>New York</placeName>
+                              </place>
+                              <place xml:id="Philly">
+                                    <placeName>Philadelphie</placeName>
+                              </place>
+                              <place xml:id="LA">
+                                    <placeName>Los Angeles</placeName>
+                              </place>
+                              <place xml:id="USA">
+                                    <placeName>États-Unis d'Amérique</placeName>
+                              </place>
+                              <place xml:id="Africa">
+                                    <placeName>Afrique</placeName>
+                              </place>
+                              <place xml:id="ChiSS">
+                                    <placeName>South Side</placeName>
+                                    <note>Quartier sud de Chicago</note>
+                              </place> 
+                            </listPlace>
+                  </settingDesc>
+            </profileDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <div type="audio" n="1">
+                        <head>World Community of Islam in the West</head>
+                        
+                        <p> My Dear Brothers and Sisters: In this article. I will be speaking to you on the purpose, 
+                            the aim, and the goal in this community called the World Community of Islam in the West.
+                        </p>
+                        
+                        <p>Let us begin with the term "purpose." Our purpose is the revival and the restoration, of pure Islam. 
+                           When we speak of reviving Islam, we are referring to the kind of teachings or the kind of preachings 
+                           that were done by many, many Muslims since the days of Prophet Muhammad of 
+                           <placeName ref="#Arabia"> Arabia </placeName> to bring the Muslim community back to the 
+                           everyday practical teachings in Islam.
+                        </p>
+                        
+                        <p> In <placeName ref="#USA">America</placeName>, our community began with the teachings of 
+                              <persName ref="#MFM">"Master Fard Muhammad."</persName> When we say "Master" we mean "teacher." 
+                              In <placeName ref="EU">Europe</placeName>, we find that heads of departments of education or schoolteachers are still called 
+                              schoolmaster today. It is important in Islam to understand the difference between the title teacher and the 
+                              title reverend. In my contact with a Christian teacher who was one of the first to be called "pastor." he brought 
+                              my attention to the difference between the title reverend and the title pastor. He said he preferred to be called 
+                              pastor. Reverend puts stress on the requirement or the need to respect or to revere the person wearing that title. 
+                              Using the term teacher suggests the giving of knowledge to others and knowledge dignifies those who truly possess it.
+                       </p>
+                        
+                     
+                     <div type="audio" n="2">
+                           <head>New World Patriotism Day Address</head>
+                           
+                              <p>Thank you <persName ref="#ComCart">Commissioner Cartwright</persName>.
+                                 On this great day here in <placeName ref="#Chicago">Chicago</placeName>, I want first to express my thanks to Almighty God 
+                                 for inspiring the good elements of our human life to get together within ourselves and to get together among ourselves as 
+                                 Brothers and Sisters—as citizens of <placeName ref="#Chicago">Chicago</placeName> and citizens of the world—as human beings 
+                                 who want to make <placeName ref="#Chicago">Chicago</placeName> a home for all of us and who want to make this Earth a home for all of us.   
+                              </p>
+                           
+                           <p>Like the <persName ref="#RevRA">Honorable Reverend Ralph Abernathy</persName> and <persName ref="#BroBB">Brother Ben Branch</persName>, 
+                                 I too know that God has given us the sunshine, and as long as we are coming together for the common good of all people—for the unification 
+                                 of the  good elements of our lives and for the unification of the <placeName ref="#Chicago">City of Chicago</placeName>—I know that nothing 
+                                 bad is going to happen to us.
+                           </p>
+                           
+                           <p>I've been in many countries too, like <persName ref="#MA">Muhammad Ali</persName>, the World Champion, and believe me, this nation 
+                              is worshiped and envied all over the world. Many people resent the greatness of this country, but most people where I've 
+                              been outside the <placeName ref="#USA">United States</placeName> are looking to <placeName ref="#USA">America</placeName> for something 
+                              to happen that's going to make things right all around the globe. 
+                           </p>
+                           
+                           <p>In <placeName ref="#Africa">Africa</placeName> there's a great test for <placeName ref="#USA">America</placeName>. We have 
+                                 in <persName ref="#POTUS_C">President Carter</persName> a morally courageous Administration. Many in the 
+                                 <placeName ref="#USA">United States</placeName> are not enough in tune with 
+                                 what's happening around the world, especially in <placeName ref="#Africa">Africa</placeName>, to really appreciate the moral 
+                                 courage of <persName ref="#POTUS_C">President Carter</persName>, <persName ref="#SecVance">Secretary Vance</persName> and others in this 
+                                 Administration.
+                           </p>
+                           
+                     <div type="audio" n="3">
+                           <head>Prophethood and Bortherhood</head>
+                           
+                           <p> Thank you, <persName ref="#RabP">Rabbi Perelmuter</persName>. It is indeed a great pleasure and privilege for me and my congregation to be 
+                               invited to this great Jewish synagogue to address you in the spirit of brotherhood.
+                           </p>
+                           
+                           <p> A few years ago, our ghettos in <placeName ref="#Chicago">Chicago</placeName>, <placeName ref="#Det">Detroit</placeName>, 
+                                 <placeName ref="#NY">New York</placeName>, <placeName ref="#Philly">Philadelphia</placeName>. <placeName ref="#LA">Los Angeles</placeName> 
+                                 and in all the big cities were so burdened, troubled, and confused that I felt this world was about to be destroyed. Not with physical fire, 
+                                 but with the fire of spiritual drunkenness, with the fire of racial hatred and ignorance.
+                           </p>
+                           
+                           <p>I thank Almighty God for bringing relief to our community and turning the minds and changing the attitudes of the people and law enforcement. 
+                                 The people now have a good spirit, a spirit of humanness, a moral spirit is stirring in the people. There is also moral influence and moral 
+                                 willpower given to us from the top of the country in the great <persName ref="#POTUS_C">President Carter</persName> whom I respect and love 
+                                 very dearly.                                 
+                           </p>
+                           
+                           <p>We thank Allah, for this great change in this country, the change of spirit and return to moral consciousness. I myself, have experienced 
+                                 a relief on <placeName ref="ChiSS">the South Side</placeName>, a relief from subtle mischief making of the police department and 
+                                 criminal gangs.                                                               
+                           </p>
+                              </div>            
+                        </div>
+                  </div>
+            </body>
+      </text>
+</TEI>
