@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+COMMENTAIRE
+Malheureusement encodage et documentation très superficiels, j'imagine par manque de temps.
+Il y a pourtant une piste intéressante quant au choix du sujet et à ses potentielles exploitations.
+-->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -18,32 +25,42 @@
       <body>
          <div1>
             <head>Guide de l'encodage des enregistrements audios, "The Teachings of W.D. Muhammad". </head>
-            <p>Ce présent ODD (One Document Does it All) explicite les choix d'encodages TEI produits sur les enregisrements audios intitulés "The Teachings of W.D. Muhammad".</p>
+            <p>Ce présent ODD (One Document Does it All) explicite les choix d'encodages TEI produits sur les
+               enregistrements audios intitulés "The Teachings of W.D. Muhammad".</p>
          
          <div2>
             <head>Présentation du document source</head>
-            <p>Le document source est consitué de 3 retranscriptions écrites de trois discours de W.D. Muhammad provenant d'un même fichier audio intitulé "The Teachings of W.D. Muhammad". 
-               Ceux-ci ont été retranscrit par Leslie Taha, fidèle de l’intellectuel et imam étasunien. Ces enregistrements comportent des discours prononcés dans de multiples contextes 
-               (intervention interreligieuse, discours solennel, sermon, etc.) et sont les témoins audios de la doctrine religieuse et politique de W.D. Muhammad.</p>
+            <p>Le document source est constitué de 3 retranscriptions écrites de trois discours de W.D. Muhammad provenant
+               d'un même fichier audio intitulé "The Teachings of W.D. Muhammad". Ceux-ci ont été retranscrit par Leslie
+               Taha, fidèle de l’intellectuel et imam étasunien. Ces enregistrements comportent des discours prononcés dans
+               de multiples contextes (intervention interreligieuse, discours solennel, sermon, etc.) et sont les témoins
+               audios de la doctrine religieuse et politique de W.D. Muhammad.</p>
          </div2>
          
          <div2>
             <head>Projet d'encodage et possibles exploitations </head>
-            <p>L'étude de la doctrine politique et religieuse de W.D. Muhammad connaît un renouveau ces dix dernières années par plusieurs spécialistes de l'histoire afro-américaine.Vaste et complexe,
-            contenue dans un corpus de plus d'un millier de pages, l'indexation paraît indispensable pour se répérer au mieux dans les trente-trois années d'enseignements de l'imam.De fait, constituer 
-            cette indexation de personnes et de lieu permettrait de dresser, sur un temps long, des répères spatio-temporelles permettant de mieux cerner les liens entre l'intellectuel et son environnement. 
-            </p>
-            <p>C'est dans cette optique que s'ancre ce projet d'encodage. En répérant les noms de personnes proches de l'imam ainsi que les endroits mentionnés, sera facilitée toute recherche se focalisant sur
-            les liens de l'imam avec d'autres acteurs politiques et religieux. Ceci est particulièrement utile pour cerner dans une chronologie longue les axes de pensée de l'intellectuel. </p> 
-            <p>Dresser cet index permet également de connecter à d'autres acteurs politiques et religieux une pensée qui se voulait international et voir à quel point ils étaient influent sur la pensée de l'imam en relevant
-            leur occurence par exemple.</p>
+            <p>L'étude de la doctrine politique et religieuse de W.D. Muhammad connaît un renouveau ces dix dernières
+               années par plusieurs spécialistes de l'histoire afro-américaine. Vaste et complexe, contenue dans un corpus
+               de plus d'un millier de pages, l'indexation paraît indispensable pour se repérer au mieux dans les trente-trois
+               années d'enseignements de l'imam. De fait, constituer cette indexation de personnes et de lieu permettrait
+               de dresser, sur un temps long, des repères spatio-temporels permettant de mieux cerner les liens entre
+               l'intellectuel et son environnement.</p>
+            <p>C'est dans cette optique que s'ancre ce projet d'encodage. En repérant les noms de personnes proches de
+               l'imam ainsi que les endroits mentionnés, sera facilitée toute recherche se focalisant sur les liens de
+               l'imam avec d'autres acteurs politiques et religieux. Ceci est particulièrement utile pour cerner dans une
+               chronologie longue les axes de pensée de l'intellectuel.</p>
+            <p>Dresser cet index permet également de connecter à d'autres acteurs politiques et religieux une pensée qui
+               se voulait international et voir à quel point ils étaient influant sur la pensée de l'imam en relevant leur
+               occurrences par exemple.</p>
          </div2>
             
          <div2> 
             <head>Présentation des choix de balises pour l'encodage</head>
             <p>Le choix des balises suit ce qui se fait classiquement dans les index de noms et de personnes TEI.</p> 
-            <p>Toute personne citée par l'imam dans les discours est encodée par la balise "persName" avec un identifiant permettant de cerner plusieurs occurences.</p>
-            <p>Tout endroit cité par l'imam dans les discours est encodé par la balise "placeName" avec un identifiant permettant de cerner plusieurs occurences.</p>
+            <p>Toute personne citée par l'imam dans les discours est encodée par la balise "persName" avec un identifiant
+               permettant de cerner plusieurs occurrences.</p>
+            <p>Tout endroit cité par l'imam dans les discours est encodé par la balise "placeName" avec un identifiant
+               permettant de cerner plusieurs occurrences.</p>
          </div2>
          </div1>
          
